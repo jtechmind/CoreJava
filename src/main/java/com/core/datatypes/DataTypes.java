@@ -4,6 +4,7 @@ public class DataTypes {
     /**
      * Primitive Data Types:
      * Eight Primitive Data Types:
+     *
      * int
      * byte
      * short
@@ -12,6 +13,7 @@ public class DataTypes {
      * double
      * boolean
      * char
+     *
      * Non-Primitive Data Types
      * Array
      * Class
