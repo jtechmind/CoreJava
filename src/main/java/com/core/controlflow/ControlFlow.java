@@ -27,12 +27,29 @@ public class ControlFlow {
         }else{
             System.out.println("Try next time");
         }
-
     }
+
+    // nested if-else statements
+    // we will make a grading system. display grade on marks. Grade-A for >= 60 and less 75,Grade A+ for 75+score
+
+    float marks = 9;
+    public void gradingSystem(){
+        if(marks >=75){
+            System.out.println("Grade-A+");
+        } else if (marks >=60) {
+            System.out.println("Grade-A");
+        } else if(marks >=50){
+            System.out.println("Grade-B");
+        }else {
+            System.out.println("Grade-C");
+        }
+    }
+
 
     public static void main(String[] args) {
         ControlFlow controlFlow = new ControlFlow();
         controlFlow.checkAdmissionStatus();
+        controlFlow.gradingSystem();
     }
 
 }
