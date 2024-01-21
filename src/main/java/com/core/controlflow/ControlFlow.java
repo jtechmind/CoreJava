@@ -30,7 +30,8 @@ public class ControlFlow {
     }
 
     // nested if-else statements
-    // we will make a grading system. display grade on marks. Grade-A for >= 60 and less 75,Grade A+ for 75+score
+    // we will make a grading system.
+    // display grade on marks. Grade-A for >= 60 and less 75,Grade A+ for 75+score
 
     float marks = 9;
     public void gradingSystem(){
